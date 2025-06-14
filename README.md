@@ -2,7 +2,7 @@
 
 A simple two-player Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
-## ▶️ [Play Now](https://meet-pr.github.io/Tic-Tac-Toe/)
+## ▶️ [Play Now](https://meet-pramanikk.github.io/Tic-Tac-Toe/)
 
 ## Features
 
