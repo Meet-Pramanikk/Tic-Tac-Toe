@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" href="data:,">
+
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+
+  <!-- Floating Form -->
+  <div id="formOverlay">
+    <div id="playerForm">
+      <h2>Enter Player Names</h2>
+      <input type="text" id="player1name" placeholder="Player 1 name">
+      <input type="text" id="player2name" placeholder="Player 2 name">
+      <button id="startGame">Start Game</button>
+    </div>
+  </div>
+
+  
+  <div id="scoreDisplay"></div>
+  <button id="clearScores">Clear Scores</button>
+
+  
+  <div class="board">
+    <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+  </div>
+
+  <div class="game-container">
+    <h1>Tic Tac Toe</h1>
+    <h2 id="turn">Player X's Turn</h2>
+
+
+    <button id="reset">Restart Game</button>
+    
+  </div>
+  <button id="toggleTheme">Toggle Theme</button>
+  <audio id="winSound" src="assests/victorymale-version-230553.mp3" preload="auto"></audio>
+  <audio id="drawSound" src="assests/draw-sword1-44724.mp3" preload="auto"></audio>
+  <audio id="clickSound" src="assests/mouse-click-104737.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
